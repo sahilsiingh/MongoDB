@@ -1,0 +1,9 @@
+// Example JSON array
+const jsonDocuments = [
+  { name: "Bob", age: 25, city: "Los Angeles" },
+  { name: "Charlie", age: 35, city: "Chicago" },
+  { name: "David", age: 40, city: "Miami" }
+];
+
+// Insert multiple JSON documents into the collection
+db.collection('myCollection').insertMany(jsonDocuments);
