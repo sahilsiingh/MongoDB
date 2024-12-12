@@ -6,4 +6,4 @@ const jsonDocuments = [
 ];
 
 // Insert multiple JSON documents into the collection
-db.collection('myCollection').insertMany(jsonDocuments);
+db.myCollection.insertMany(jsonDocuments);
