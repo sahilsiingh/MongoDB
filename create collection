@@ -11,7 +11,7 @@ db.createCollection("cappedCollection",{capped: true, size:2222222})
 { ok: 1 }
 show dbs
 admin      40.00 KiB
-config    108.00 KiB
+config    108.00 KiB 
 createdb   72.00 KiB
 data       40.00 KiB
 gfg        40.00 KiB
