@@ -1,1 +1,1 @@
- db.collection.remove({ field: "value" });
+ db.collection.remove({ field: "value"  });
